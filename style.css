@@ -128,9 +128,21 @@ h1, h2, h3, h4, h5, h6 {
 .rating {
   display: grid;
   row-gap: 16px;
+
+  justify-items: center;
+  background-color: var(--clr-purple-100);
+  border-radius: 8px;
+  padding-block: 14.61px;
 }
 
 .rating__stars {
   display: flex;
   gap: 8px;
+}
+
+.rating__text {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--clr-purple-900);
 }
