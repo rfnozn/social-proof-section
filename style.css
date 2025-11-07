@@ -102,6 +102,24 @@ h1, h2, h3, h4, h5, h6 {
   row-gap: 32px;
 }
 
+.social-proof__description {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  color: var(--clr-purple-300);
+  text-align: center;
+}
+
+.social-proof__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.85;
+  letter-spacing: -2px;
+  color: var(--clr-purple-900);
+  padding-block-end: 16px;
+}
+
 .social-proof__ratings {
   display: grid;
   row-gap: 16px;
