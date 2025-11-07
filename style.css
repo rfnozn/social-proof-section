@@ -90,3 +90,29 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* Mobile first styles */
+.social-proof {
+  display: grid;
+  row-gap: 24px;
+}
+
+.social-proof__content {
+  display: grid;
+  row-gap: 32px;
+}
+
+.social-proof__ratings {
+  display: grid;
+  row-gap: 16px;
+}
+
+.rating {
+  display: grid;
+  row-gap: 16px;
+}
+
+.rating__stars {
+  display: flex;
+  gap: 8px;
+}
